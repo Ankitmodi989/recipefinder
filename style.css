@@ -1,0 +1,140 @@
+.{
+    margin: 0px;
+}
+#navlist{
+    width: 60vw;
+    list-style:none ;
+    font-size: 2.2rem;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.container{
+    height: 300.vh;
+    width: 100vw;
+    overflow-x: non
+}
+.alllll{
+    margin: 20px;
+    margin-left: 40%;
+    justify-content: center;
+    
+
+}
+#search{
+    font-size: 20px;
+    border-radius: 30px;
+    border-style: groove;
+    border-width: 5px;
+    border-color: cadetblue;
+}
+#searchbutton{
+    border-radius: 30px;
+    font-size: medium;
+}
+.navcontainer{
+  width: 100vw;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,45,121,1) 35%, rgba(0,212,255,1) 100%);
+
+
+}
+nav{
+    width: 100;
+}
+#navlogo{
+    font-size: 2.8rem;
+    color: #eee5e5;
+}
+a{
+    text-decoration: none;
+    color: #f5e9e9;
+}
+#navitem{
+    display: flex;
+    gap: 40px;
+}
+
+.footer{
+    background-color: black;
+    color: rgb(228, 220, 220);
+    text-align: center; 
+
+}
+.content{
+    width: 70%;
+    margin: auto;
+    border: 1px ;
+   border-color: #000;
+   
+}
+.item{
+    display: flex;
+    justify-content: space-between;
+}
+.about{
+    display: flex;
+    gap: 30px;
+    font-size: 30px;
+}
+#logo{
+ position: absolute;
+ 
+ right: 0;
+ top: 0;
+}
+.img:hover{
+    transform: scale(1.1);
+    background-color: rgb(150, 90, 234);
+}
+.img{
+
+    border-radius: 15px;
+}
+.card {
+    
+    display: inline-block;
+    cursor: pointer;
+    border: 15px solid ;
+    border-color: white;
+    border-radius: 20px;
+    margin: 20px;
+    
+}
+.abc {
+    background-color: rgb(254, 251, 251);
+    display: inline-block;
+}
+.box{
+    display: inline-block;
+}
+
+.restaurantname{
+    font-size: 20px;
+    font-weight: bold ;
+}
+.rate{
+    background-color: green;
+    height: 15px;
+    padding: 5px;
+    position: relative;
+    left: 20px;
+    color: #fffcfc;
+    border-radius: 8px;
+}
+.restaurant{
+   margin-top: 10px;
+}
+.price, .distance{
+    position: relative;
+    left: 70px;
+    color: #626060;
+}
+.food_name,.Place{
+    color: #494949;
+}
